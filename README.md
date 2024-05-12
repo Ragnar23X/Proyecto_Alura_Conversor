@@ -1,2 +1,3 @@
-# Proyecto_Alura_Conversor
-Proyecto Conversor de Monedas Alura
+<h1 align="center"> Alura Proyecto- Conversor de Monedas </h1>
+
+
