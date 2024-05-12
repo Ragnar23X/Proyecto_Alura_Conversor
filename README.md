@@ -1,13 +1,64 @@
-<h1 align="center"> Alura Proyecto- Conversor de Monedas </h1>
 
-Conversor de Monedas
-Este proyecto es un conversor de monedas desarrollado en Java. Permite a los usuarios convertir montos de una divisa a otra utilizando tasas de cambio en tiempo real. El conversor utiliza una API externa para obtener las tasas de cambio más recientes y ofrece una interfaz simple y fácil de usar.
+---
 
-Características: 
-Conversión entre diferentes monedas.
-Actualización automática de las tasas de cambio.
-Interfaz de usuario intuitiva.
+# Alura Proyecto - Conversor de Monedas
 
-<h2 > Demostración del proyecto.  </h2>
-Este proyecto cuenta con un menú principal en el cual podemos decidir entre realizar una conversion de divisas o finalizar el programa.
-Digitando su respectivo numero podemos elegir la opción deseada. ![Captura de pantalla (44)](https://github.com/Ragnar23X/Proyecto_Alura_Conversor/assets/161176854/50fa526a-7c31-4d43-94a3-066b9b12105f)
+Este es un simple conversor de monedas desarrollado en Java que utiliza la API de ExchangeRate-API para obtener tasas de cambio en tiempo real. Permite a los usuarios convertir montos de una divisa a otra de manera rápida y sencilla.
+
+## Características
+
+- Conversión entre diferentes monedas basadas en las tasas de cambio actuales.
+- Interfaz de usuario simple y fácil de usar.
+- Actualización automática de las tasas de cambio al realizar una conversión.
+
+## Uso
+
+1. Clona este repositorio en tu máquina local.
+2. Abre el proyecto en tu IDE de Java favorito.
+3. Ejecuta la clase `conversor.java`.
+4. Se mostrará un menú con las siguientes opciones:
+   - (1) Conversar Divisa
+   - (2) Salir
+5. Si seleccionas la opción 1, se mostrará un listado de las iniciales de las divisas disponibles y sus nombres.
+6. Ingresa las iniciales de la divisa base que deseas convertir.
+7. Ingresa las iniciales de la divisa a la que deseas convertir la divisa base.
+8. Ingresa la cantidad de la divisa base que deseas convertir.
+9. El programa realizará la conversión y mostrará el resultado redondeado a dos decimales.
+10. Puedes realizar más conversiones seleccionando nuevamente la opción 1. Para salir, selecciona la opción 2.
+
+## Ejemplo
+
+```
+******************************
+Bienvenido al conversor de divisas
+
+(1)- Conversar Divisa
+(2)- Salir
+*******************************
+
+1
+
+*****************************
+                        
+ARS - Peso Argentino                      
+BOB - Boliviano Boliviano                       
+BRL - Real Brasileño                      
+CLP - Peso Chileno                       
+COP - Peso Colombiano                      
+USD - Dólar Estadounidense                    
+CRC - Colón Costarricense                   
+******************************
+
+Digite las iniciales de la divisa base que desea conversar: 
+USD
+Ahora digite la divisa en la que desea convertir el USD: 
+EUR
+Por favor digite la cantidad de USD que desea convertir a --> EUR
+100
+
+El resultado de convertir 100.0 USD es 89.74 EUR
+```
+
+¡Disfruta convirtiendo monedas con nuestro conversor!
+
+---
